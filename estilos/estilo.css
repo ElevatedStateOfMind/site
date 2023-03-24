@@ -65,7 +65,7 @@ body {
     flex-direction: right;
     gap: 40px;
     width: 60%;
-    padding-left: 10%;
+    padding-left: 4%;
 }
 
 .apresentacao__conteudo2 {
@@ -96,6 +96,12 @@ body {
 .apresentacao_texto {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_texto_pgec {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
 }
 
 .apresentacao_titulo_destaque {
@@ -182,9 +188,10 @@ body {
 .apresentacao__conteudo__pgec {
     display: flex;
     gap: 40px;
+    padding: 2%;
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 800px) { 
 
     .apresentacao {
         flex-direction: column-reverse;
@@ -193,6 +200,8 @@ body {
 
     .cabecalho {
         padding: 10%;
+        justify-content: center;
+        align-items: center;
     }
 
     .cabecalho__menu {
@@ -209,6 +218,6 @@ body {
         width: auto;
     }
     .apresentacao__conteudo__imagem {
-        width: 70%;
+        width: min-content;
     }
 }
