@@ -199,13 +199,14 @@ body {
     }
 
     .cabecalho {
-        padding: auto;
+        padding: 10%;
         justify-content: center;
         align-items: center;
     }
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 20px;
     }
 
     .apresentacao__conteudo {
@@ -218,6 +219,10 @@ body {
     .apresentacao__conteudo2 {
         width: auto;
         flex-direction: column;
+    }
+
+    .apresentacao__conteudo__imagem {
+        width: 20%;
     }
         
     
