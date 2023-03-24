@@ -213,10 +213,11 @@ body {
     }
     .apresentacao__conteudo1 {
         width: auto;
+        flex-direction: column;
     }
     .apresentacao__conteudo2 {
         width: auto;
-        align-items: center;
+        flex-direction: column;
     }
         
     
