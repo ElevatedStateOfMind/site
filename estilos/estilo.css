@@ -77,7 +77,6 @@ body {
 
 .apresentacao__conteudo__imagem {
     width: auto;
-     /* height: 250px; */
     border-radius: 12px;
     border-style: solid;
     border-color: var(--cor-terciaria);
@@ -217,7 +216,6 @@ body {
     }
     .apresentacao__conteudo2 {
         width: auto;
-        flex-direction: column;
     }
         
     
