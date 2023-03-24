@@ -191,7 +191,7 @@ body {
     padding: 2%;
 }
 
-@media (max-width: 800px) { 
+@media (max-width: 500px) { 
 
     .apresentacao {
         flex-direction: column-reverse;
@@ -215,9 +215,9 @@ body {
         width: auto;
     }
     .apresentacao__conteudo2 {
-        width: 50%;
+        width: auto;
+        align-items: center;
     }
-    /* .apresentacao__conteudo__imagem { */
         
     
 }
